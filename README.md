@@ -60,15 +60,9 @@
 
 ##### With expo-cli
 
-> ✅ The [Expo client app](https://expo.io/tools) comes with the native code installed!
+With Expo, you'll need to run `expo install react-native-svg` to install this library.
 
-Install the JavaScript with:
-
-  ```bash
-  expo install react-native-svg
-  ```
-
-📚 See the [**Expo docs**](https://docs.expo.io/versions/latest/sdk/svg/) for more info or jump ahead to [Usage](#Usage).
+Please refer to [Expo docs](https://docs.expo.io/versions/latest/sdk/svg/) for more information or jump ahead to [Usage](#Usage).
 
 ##### With react-native-cli
 
@@ -234,7 +228,7 @@ Verify that it is still an issue with the latest version as specified in the pre
 react-native info
 ```
 
-If you suspect that you've found a spec conformance bug, then you can test using your component in a react-native-web project by forking this codesandbox, to see how different browsers render the same content: <https://codesandbox.io/s/pypn6mn3y7> If any evergreen browser with significant userbase or other svg user agent renders some svg content better, or supports more of the svg and related specs, please open an issue asap.
+If you suspect that you've found a spec conformance bug, then you can test using your component in a react-native-web project by forking this codesandbox, to see how different browsers render the same content: <https://codesandbox.io/s/pypn6mn3y7> If any evergreen brower with significant userbase or other svg user agent renders some svg content better, or supports more of the svg and related specs, please open an issue asap.
 
 ### Usage
 
